@@ -1,0 +1,46 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task span {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.task input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button.done {
+  background-color: #007bff;
+  color: white;
+}
+
+.task button.done:hover {
+  background-color: #0056b3;
+}
+
+.task button.edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.task button.edit:hover {
+  background-color: #e0a800;
+}
